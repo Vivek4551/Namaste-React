@@ -7,15 +7,15 @@
     </div>
 */
 
-// const parent = React.createElement(
-//     "div", 
-//     {id:"parent"},
-//     React.createElement(
-//         "div",
-//         {id:"child"},
-//         React.createElement("h1",{},"I'm H1 tag")
-//     )
-// );
+const parent = React.createElement(
+    "div", 
+    {id:"parent"},
+    React.createElement(
+        "div",
+        {id:"child"},
+        React.createElement("h1",{},"I'm H1 tag")
+    )
+);
 
 /*
 `   how to create nested elements along with siblngs?
@@ -26,8 +26,9 @@
         </div>
     </div>
 */
-// if we want to pass more than one children then we have to pass it like an array
-const parent = React.createElement(
+// if we want to pass more than one children then
+//  we have to pass it like an array
+const parent2 = React.createElement(
     "div", 
     {id:"parent"},
     React.createElement(
